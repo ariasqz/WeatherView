@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div>
+                <div class="search-box">
+                    <input type="text" placeholder="Dhaka, Bangladesh" value="Dhaka, Bangladesh">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </div>
+
+                <div class="weather-icon">
+                    <img src="img/Captura de pantalla 2026-02-06 a las 8.44.47 p. m. (1).png" alt="Weather Icon">
+                </div>
+
+                <div class="temperature">
+                    <h1>31°C</h1>
+                    <p>Mostly Cloudy</p>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="date-time">
+                    <p>21-July-2023</p>
+                    <p>Friday, 12:44 PM</p>
+                    <p>Day</p>
+                </div>
+            </div>
+
+            <div class="location">
+                <h2>Dhaka</h2>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <div class="tabs">
+                <span class="active">Today</span>
+                <span class="inactive">Tomorrow</span>
+            </div>
+
+            <div class="weather-grid">
+ 
+                <div class="weather-card">
+                    <h3>Wind</h3>
+                    <div class="value">6 km/h</div>
+                    <div class="subtitle">East</div>
+                </div>
+
+
+                <div class="weather-card">
+                    <h3>Humidity</h3>
+                    <div class="value">69%</div>
+                </div>
+
+  
+                <div class="weather-card">
+                    <h3>Real Feel</h3>
+                    <div class="value">31°C</div>
+                </div>
+
+               
+                <div class="weather-card">
+                    <h3>UV Index</h3>
+                    <div class="value">3</div>
+                    <div class="subtitle">Moderate</div>
+                </div>
+
+       
+                <div class="weather-card">
+                    <h3>Pressure</h3>
+                    <div class="value">1000 mb</div>
+                </div>
+
+        
+                <div class="weather-card">
+                    <h3>Change of rain</h3>
+                    <div class="value">70%</div>
+                </div>
+
+            
+                <div class="weather-card">
+                    <h3>Temperature History</h3>
+                    <div class="temperature-history">
+                        <div class="temp-row">
+                            <span class="arrow up">↑</span>
+                            <span class="value" style="font-size: 24px;">31°C</span>
+                        </div>
+                        <div class="temp-row">
+                            <span class="arrow down">↓</span>
+                            <span class="value" style="font-size: 24px;">31°C</span>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="weather-card">
+                    <h3>Sun</h3>
+                    <div class="sun-moon-times">
+                        <div class="time-row">
+                            <span class="time-label">Rise</span>
+                            <span class="time-value">5:17 am</span>
+                        </div>
+                        <div class="time-row">
+                            <span class="time-label">Set</span>
+                            <span class="time-value">5:17 am</span>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="weather-card">
+                    <h3>Moon</h3>
+                    <div class="sun-moon-times">
+                        <div class="time-row">
+                            <span class="time-label">Rise</span>
+                            <span class="time-value">5:17 am</span>
+                        </div>
+                        <div class="time-row">
+                            <span class="time-label">Set</span>
+                            <span class="time-value">5:17 am</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                All Data Provided by <a href="#">Company Name</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
